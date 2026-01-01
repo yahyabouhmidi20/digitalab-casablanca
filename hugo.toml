@@ -1,0 +1,50 @@
+baseURL = "https://yahyabouhmidi20.github.io/digitalab-casablanca/"
+languageCode = "en-us"
+title = "DigitaLAB Casablanca | Digital Marketing, Web Development & AI Automation"
+theme = ""
+
+[params]
+  description = "We build websites, marketing systems, and AI automation for businesses in Morocco and beyond."
+  author = "DigitaLAB Casablanca"
+  location = "Casablanca, Morocco"
+  email = "contact@digitalab.ma"
+  whatsapp = "+212XXXXXXXXX"
+
+  # Colors
+  primaryColor = "#2563EB"
+  secondaryColor = "#0F172A"
+  accentColor = "#10B981"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Case Studies"
+    url = "/case-studies/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
